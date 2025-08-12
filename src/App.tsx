@@ -13,6 +13,7 @@ export default function App() {
       <Route path="/mobile-coffee-cart-owners" element={<MobileCoffeeCartOwners />} />
       <Route path="/office-pantry-managers" element={<OfficePantryManagers />} />
       <Route path="/travel-coffee-lovers" element={<TravelCoffeeLovers />} />
+      <Route path="/speciality-coffee-gear-enthusiasts" element={<TravelCoffeeLovers />} />
     </Routes>
     </    BrowserRouter>
   );
