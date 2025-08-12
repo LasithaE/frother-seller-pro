@@ -6,7 +6,7 @@ import TravelCoffeeLovers from "./pages/TravelCoffeeLovers";
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
     <Routes>
       <Route path="/" element={<Navigate to="/home-coffee-lovers" replace />} />
       <Route path="/home-coffee-lovers" element={<HomeCoffeeLovers />} />
