@@ -43,7 +43,7 @@ export default function MobileCoffeeCartOwners() {
             </div>
 
             {/* CTA Button */}
-            <div className="flex flex-col sm:flex-row gap-4 justify-between">
+            <div className="hidden md:block flex flex-col sm:flex-row gap-4 justify-between">
             <button  className="bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white px-5 py-5 rounded-full font-bold text-xl transition-all duration-300 transform hover:scale-105 shadow-2xl hover:shadow-blue-500/25 border border-blue-400/30">
               Preorder Now - $39
             </button>
